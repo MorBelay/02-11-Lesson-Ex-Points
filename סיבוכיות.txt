@@ -1,0 +1,20 @@
+מגישים: בלייב מור וחיים אשרף 50/5
+
+
+סיבוכיות:
+
+במחלקת Point כל הפעולות הן O(1),
+מכיוון שאין לולאות וכל הפעולות מתבצעות בזמן קבוע.
+
+במחלקת Array_Of_Points:
+
+הפעולות:
+Constructor, addPoint, getCount, getMax, getPoints
+הן O(1).
+
+הפעולות:
+Copy Constructor, toString, removePointByIndex, removePoint
+הן O(n), מכיוון שהן מכילות לולאות.
+
+הפעולה החיצונית checkPoint היא O(n),
+מכיוון שהיא עוברת על המערך באמצעות לולאה.
